@@ -1,19 +1,13 @@
-def isArmstrong(number):
-    digits = str(number)
-    num_digits = len(digits)
-    terms = []
-    total = 0
-    for digit in digits:
-        val = int(digit) ** num_digits
-        terms.append(f"{digit}**{num_digits}")
-        total += val
+def is_armstrong(numbers):
+    
+    number = str(numbers)
+    length = len(number)
+    InitializeTotal = 0
+    
+    for digit in number:
+        InitializeTotal += int(digit) ** length
+    return InitializeTotal == numbers
 
-    expression = " + ".join(terms)
-    result = total == number
-    print(f"Output: {result}  ({expression} = {total})")
-    return result
-
-# Example usage
-isArmstrong(153) 
-isArmstrong(9474)
-isArmstrong(123)
+print(is_armstrong(153))  
+print(is_armstrong(9474))  
+print(is_armstrong(123))  
