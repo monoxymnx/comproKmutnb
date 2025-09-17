@@ -11,6 +11,6 @@ elif operation == "3":
 elif operation == "4":
     result = num1 / num2
 else:
-    result = "ผลลลัพธ์ไม่ถูกต้อง"
+    result = "ผลลัพธ์ไม่ถูกต้อง"
 
 print("ผลลัพธ์:", result)

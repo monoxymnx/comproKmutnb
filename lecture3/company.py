@@ -1,7 +1,7 @@
-employee = int(input("Enter the number of employees: "))
+employee = int(input("Enter number of employees: "))
 if employee < 50 :
-    print("Small company")
-elif employee < 250 :
-    print("Medium company")
+    print("บริษัทกากๆ")
+elif employee <= 250 :
+    print("บริษัทเกือบดี")
 else :
-    print("Large company")
+    print("บริษัทกากเหมือนกันแต่ใหญ่")

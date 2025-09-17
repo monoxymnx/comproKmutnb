@@ -23,7 +23,7 @@ def heroMenu():
                 heroes.sort()
                 print("Sorted heroes:", heroes)
             case _:
-                print("Invalid option.")        
+                print("Invalid option.")
         if input("Go next? (y to continue): ").lower() != 'y':
             print("Program ended")
             break
